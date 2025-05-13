@@ -22,8 +22,11 @@ FIGURE 1. ARCHITECTURE DETAILS OF THE MODIFIED VGG16 MODEL
 For the evaluation of the study, AUC-ROC, Accuracy and F1-score parameters are used. Results are shown in Table 1. 
 
 TABLE 1. EVALUATION PARAMETERS
+
 AUC-ROC	0.9743
+
 Accuracy	0.9658
+
 F1-score	0.8687
 
 As a result of the evaluation part, we achieved an AUC-ROC of 0.9743, indicating that the model is highly capable of distinguishing between real and fake videos across different thresholds. The overall accuracy reached 96.58%, showing consistent and reliable classification. Our F1-score of 0.8687 reflects a balance between precision and recall, which is crucial for minimizing the misclassification of deep-fake content. Also, the Roc Curve is generated from results, as shown in the Figure 2.
