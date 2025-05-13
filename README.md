@@ -41,7 +41,7 @@ Also, a confusion matrix is created to analyze false positive and false positive
 
 FIGURE 3. CONFUSION MATRIX EVALUATION
 
-The confusion matrix shows that the model correctly classified 3394 out of 3430 fake videos and 450 out of 550 real videos. It only made 36 false positive errors (real videos predicted as fake) and 100 false negative errors (fake videos predicted as real). This indicates that the model is especially good at detecting fake content, but slightly less accurate at recognizing real ones. Overall, the results show strong classification performance, especially in catching deep-fake content. 3 images for false negatives and 3 images for false positives are sampled as shown in the Figure 4 and Figure 4.
+The confusion matrix shows that the model correctly classified 3394 out of 3430 fake videos and 450 out of 550 real videos. It only made 36 false positive errors (real videos predicted as fake) and 100 false negative errors (fake videos predicted as real). This indicates that the model is especially good at detecting fake content, but slightly less accurate at recognizing real ones. Overall, the results show strong classification performance, especially in catching deep-fake content. 3 images for false negatives and 3 images for false positives are sampled as shown in the Figure 4 and Figure 5.
 
 <img width="253" alt="image" src="https://github.com/user-attachments/assets/881e194e-4997-4093-b3b7-c9a30ec043b4" />
 
