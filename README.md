@@ -19,13 +19,13 @@ In the image preprocessing part, All images were resized to 224x224 and pixel va
 
 <img width="176" alt="image" src="https://github.com/user-attachments/assets/a285f6d5-34ea-412a-a265-042882db1bc7" />
 
-FIGURE 1. ARCHITECTURE DETAILS OF THE MODIFIED VGG16 MODEL
+FIGURE 1. Architecture Details Of The Modified VGG16 Model
 
 **3.	RESULTS AND DISCUSSION**
 
 For the evaluation of the study, AUC-ROC, Accuracy and F1-score parameters are used. Results are shown in Table 1. 
 
-TABLE 1. EVALUATION PARAMETERS
+TABLE 1. Evaluation Parameters
 
 AUC-ROC	0.9743
 
@@ -37,23 +37,23 @@ As a result of the evaluation part, we achieved an AUC-ROC of 0.9743, indicating
 
 <img width="204" alt="image" src="https://github.com/user-attachments/assets/a9356862-de01-40c0-86d9-a4969b77e392" />
 
-FIGURE 2. ROC CURVE ANALYSIS
+FIGURE 2. ROC Curve Analysis
 
 Also, a confusion matrix is created to analyze false positive and false positive rates, as shown in Figure 3.
 
 <img width="228" alt="image" src="https://github.com/user-attachments/assets/5d232264-5dc6-4b06-b724-d4bdfaee3ccc" />
 
-FIGURE 3. CONFUSION MATRIX EVALUATION
+FIGURE 3. Confusion Matrix Evaluation 
 
 The confusion matrix shows that the model correctly classified 3394 out of 3430 fake videos and 450 out of 550 real videos. It only made 36 false positive errors (real videos predicted as fake) and 100 false negative errors (fake videos predicted as real). This indicates that the model is especially good at detecting fake content, but slightly less accurate at recognizing real ones. Overall, the results show strong classification performance, especially in catching deep-fake content. 3 images for false negatives and 3 images for false positives are sampled as shown in the Figure 4 and Figure 5.
 
 <img width="253" alt="image" src="https://github.com/user-attachments/assets/881e194e-4997-4093-b3b7-c9a30ec043b4" />
 
-FIGURE 4. FALSE NEGATIVE SAMPLES
+FIGURE 4. False Negative Samples
 
 <img width="252" alt="image" src="https://github.com/user-attachments/assets/c39dcd9c-0a1f-46ae-9ddd-6166dc685341" />
 
-FIGURE 5. FALSE POSITIVES İMAGES
+FIGURE 5. False Positives Images
 
 **4.	ETHICAL IMPACT OF DEEP-FAKE DETECTION**
 
@@ -63,9 +63,9 @@ Detecting deep-fake content is very important to protect public trust in digital
 
 In our study, the model showed high performance with an AUC-ROC of 0.9743 and an accuracy of 96.58%. However, as shown in the confusion matrix, the model misclassified 100 real videos as fake and 36 fake videos as real. This shows that it performs better on fake samples than on real ones. Limited training data or an imbalance between real and fake samples might also affect performance. Due to this reason, the model could produces worse results when detecting real samples.
 
-**HOW TO RUN?**
+# HOW TO RUN?
 
-Environment Setup
+
 
 **1.Create and activate a virtual environment**
 
